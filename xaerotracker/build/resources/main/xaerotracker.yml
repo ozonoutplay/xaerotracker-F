@@ -1,0 +1,15 @@
+# XaeroTracker Fabric Config
+
+# Whether to send level ID to client. Required for the mod to function.
+# Disable if your server software already handles this.
+should-send-level-id: true
+
+# Random level ID used to distinguish servers under the same domain.
+# Auto-generated on first run. Change for each sub-server behind a proxy.
+level-id: 0
+
+# Cooldown between position syncs per player (milliseconds)
+sync-cooldown: 250
+
+# Only sync positions of players in the same world
+only-sync-same-world: false
